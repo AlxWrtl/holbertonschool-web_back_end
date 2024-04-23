@@ -6,6 +6,7 @@ This module provides a function to find the largest integer less than or equal
 to a given floating point number using the math library's floor function.
 """
 
+
 def floor(n: float) -> int:
     """Return the largest integer less than or equal to a given float.
 
