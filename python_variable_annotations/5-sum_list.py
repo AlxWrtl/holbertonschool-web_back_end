@@ -7,7 +7,7 @@ given list and return the total.
 """
 
 
-def sum_list(input_list: list[float]) -> float:
+def sum_list(input_list: List[float]) -> float:
     """Calculate the sum of a list of floating point numbers.
 
     Args:
@@ -16,4 +16,4 @@ def sum_list(input_list: list[float]) -> float:
     Returns:
         float: The sum of the numbers in the list.
     """
-    return sum(input_list)
+    return (sum(input_list))
