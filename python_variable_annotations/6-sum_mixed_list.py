@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-from typing import Union, List
 """A simple Python module to calculate the sum of mixed type lists.
 
 This module provides a function to sum up a list containing both integers and
 floating point numbers, returning the total as a float.
 """
+from typing import Union, List
 
 
 def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-from typing import List
 """A simple Python module to calculate the sum of a list of numbers.
 
 This module provides a function to sum up all the floating point numbers in a
 given list and return the total.
 """
+from typing import List
 
 
 def sum_list(input_list: List[float]) -> float:
