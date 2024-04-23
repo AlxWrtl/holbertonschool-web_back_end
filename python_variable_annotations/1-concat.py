@@ -6,7 +6,7 @@ combined result.
 """
 
 
-def concat(str1: str, str2: str):
+def concat(str1: str, str2: str) -> str:
     """Concatenate two strings and return the combined result.
 
     Args:
