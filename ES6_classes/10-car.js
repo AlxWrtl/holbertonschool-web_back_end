@@ -1,5 +1,11 @@
-import ClassRoom from "./0-classroom";
+export default class Car {
+  constructor(brand, motor, color) {
+    this._brand = brand;
+    this._motor = motor;
+    this._color = color;
+  }
 
-export default function initializeRooms() {
-  return [new ClassRoom(19), new ClassRoom(20), new ClassRoom(34)];
+  cloneCar() {
+    return new this.constructor(this._brand, this._motor, this._color);
+  }
 }
