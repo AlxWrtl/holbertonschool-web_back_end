@@ -1,4 +1,4 @@
-import Currency from "./3-currency";
+import Currency from './3-currency';
 
 export default class Pricing {
   constructor(amount, currency) {
@@ -11,7 +11,7 @@ export default class Pricing {
   }
 
   set amount(amount) {
-    if (typeof amount === "number") this._amount = amount;
+    if (typeof amount === 'number') this._amount = amount;
   }
 
   get currency() {
